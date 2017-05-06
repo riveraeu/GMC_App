@@ -15,7 +15,7 @@
 		3F1E96371EA2B9DC0056B237 /* LandingPage470Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E96361EA2B9DC0056B237 /* LandingPage470Tests.swift */; };
 		3F1E96421EA2B9DC0056B237 /* LandingPage470UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E96411EA2B9DC0056B237 /* LandingPage470UITests.swift */; };
 		3F1E96581EA2BDD10056B237 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E96571EA2BDD10056B237 /* AboutViewController.swift */; };
-		916665D51EB1263400C0580D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916665D41EB1263400C0580D /* MapViewController.swift */; };
+		911A288C1EB12C1000693025 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911A288B1EB12C1000693025 /* MapViewController.swift */; };
 		916665DD1EB1278600C0580D /* DetailedEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916665D61EB1278600C0580D /* DetailedEventViewController.swift */; };
 		916665DE1EB1278600C0580D /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916665D71EB1278600C0580D /* Download.swift */; };
 		916665DF1EB1278600C0580D /* EventDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916665D81EB1278600C0580D /* EventDataSource.swift */; };
@@ -23,7 +23,6 @@
 		916665E21EB1278600C0580D /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916665DB1EB1278600C0580D /* EventTableViewCell.swift */; };
 		916665E31EB1278600C0580D /* EventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916665DC1EB1278600C0580D /* EventTableViewController.swift */; };
 		916665E51EB127A400C0580D /* WH_seating.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 916665E41EB127A400C0580D /* WH_seating.jpg */; };
-		916665E71EB127AE00C0580D /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916665E61EB127AE00C0580D /* MyButton.swift */; };
 		916665E91EB1295900C0580D /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916665E81EB1295900C0580D /* Event.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,7 +58,7 @@
 		3F1E96411EA2B9DC0056B237 /* LandingPage470UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage470UITests.swift; sourceTree = "<group>"; };
 		3F1E96431EA2B9DC0056B237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F1E96571EA2BDD10056B237 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
-		916665D41EB1263400C0580D /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../../../../../../Volumes/erivera/CS470/FinalProject/WH_map/WH_map/MapViewController.swift; sourceTree = "<group>"; };
+		911A288B1EB12C1000693025 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = WH_map/MapViewController.swift; sourceTree = "<group>"; };
 		916665D61EB1278600C0580D /* DetailedEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailedEventViewController.swift; path = EventListView/DetailedEventViewController.swift; sourceTree = "<group>"; };
 		916665D71EB1278600C0580D /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Download.swift; path = EventListView/Download.swift; sourceTree = "<group>"; };
 		916665D81EB1278600C0580D /* EventDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventDataSource.swift; path = EventListView/EventDataSource.swift; sourceTree = "<group>"; };
@@ -67,7 +66,6 @@
 		916665DB1EB1278600C0580D /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventTableViewCell.swift; path = EventListView/EventTableViewCell.swift; sourceTree = "<group>"; };
 		916665DC1EB1278600C0580D /* EventTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventTableViewController.swift; path = EventListView/EventTableViewController.swift; sourceTree = "<group>"; };
 		916665E41EB127A400C0580D /* WH_seating.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = WH_seating.jpg; path = WH_map/WH_seating.jpg; sourceTree = "<group>"; };
-		916665E61EB127AE00C0580D /* MyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyButton.swift; path = WH_map/MyButton.swift; sourceTree = "<group>"; };
 		916665E81EB1295900C0580D /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Event.swift; path = EventListView/Event.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -183,9 +181,8 @@
 		3FDBAFCB1EAEC8B5001B5907 /* SeatView */ = {
 			isa = PBXGroup;
 			children = (
-				916665D41EB1263400C0580D /* MapViewController.swift */,
+				911A288B1EB12C1000693025 /* MapViewController.swift */,
 				916665E41EB127A400C0580D /* WH_seating.jpg */,
-				916665E61EB127AE00C0580D /* MyButton.swift */,
 			);
 			name = SeatView;
 			sourceTree = "<group>";
@@ -328,10 +325,9 @@
 				916665E01EB1278600C0580D /* EventScheduleViewController.swift in Sources */,
 				916665E21EB1278600C0580D /* EventTableViewCell.swift in Sources */,
 				3F1E96241EA2B9DC0056B237 /* ViewController.swift in Sources */,
-				916665E71EB127AE00C0580D /* MyButton.swift in Sources */,
 				916665E91EB1295900C0580D /* Event.swift in Sources */,
 				3F1E96221EA2B9DC0056B237 /* AppDelegate.swift in Sources */,
-				916665D51EB1263400C0580D /* MapViewController.swift in Sources */,
+				911A288C1EB12C1000693025 /* MapViewController.swift in Sources */,
 				3F1E96581EA2BDD10056B237 /* AboutViewController.swift in Sources */,
 				916665DF1EB1278600C0580D /* EventDataSource.swift in Sources */,
 				916665DE1EB1278600C0580D /* Download.swift in Sources */,

@@ -19,7 +19,8 @@ import UIKit
         //your common setup goes here
         backgroundColor = UIColor.green
         layer.cornerRadius = 0.5 * bounds.size.width
-        
+        addTarget(self, action: #selector(didTapButton(_:)), for: .touchUpInside)
+
         
     }
     
@@ -27,5 +28,9 @@ import UIKit
     override func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()
         self.setupViews()
+    }
+    
+    func didTapButton(_ button: UIButton){
+        print("test")
     }
 }
